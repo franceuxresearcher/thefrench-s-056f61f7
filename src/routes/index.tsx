@@ -104,7 +104,7 @@ function Index() {
             real confidence.
           </h1>
           <p className="mb-12 font-serif text-[20px] italic text-ink-40">Let's start here.</p>
-          <a href="mailto:thefrenchs.contact@gmail.com" className="btn">
+          <a href={`mailto:${CONTACT_EMAIL}`} onClick={handleContactClick} className="btn">
             Get in touch
           </a>
         </div>
