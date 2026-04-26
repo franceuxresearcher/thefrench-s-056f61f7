@@ -45,6 +45,12 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "The French S — Effortless style, real confidence." },
+      { name: "description", content: "Parisian personal shopper helping men dress with effortless style and real confidence. Lookbooks worldwide & shopping sessions in Paris." },
+      { property: "og:description", content: "Parisian personal shopper helping men dress with effortless style and real confidence. Lookbooks worldwide & shopping sessions in Paris." },
+      { name: "twitter:description", content: "Parisian personal shopper helping men dress with effortless style and real confidence. Lookbooks worldwide & shopping sessions in Paris." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a43b4b73-9a3d-46f0-8718-0eac76cebf11/id-preview-06c37981--5750ffcc-d0ae-4fc0-a248-8521fecb8817.lovable.app-1777210639739.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a43b4b73-9a3d-46f0-8718-0eac76cebf11/id-preview-06c37981--5750ffcc-d0ae-4fc0-a248-8521fecb8817.lovable.app-1777210639739.png" },
     ],
     links: [
       { rel: "canonical", href: "https://thefrench-s.com" },
