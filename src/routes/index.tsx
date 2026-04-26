@@ -1,8 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
+import { toast } from "sonner";
 import heroSacreCoeur from "@/assets/hero-sacre-coeur.jpg";
 import portraitFrance from "@/assets/portrait-france.jpg";
 import look01 from "@/assets/look-01.jpg";
+
+const CONTACT_EMAIL = "thefrenchs.contact@gmail.com";
+
+function handleContactClick(e: React.MouseEvent<HTMLAnchorElement>) {
+  e.preventDefault();
+  // Try to copy the email to clipboard as a fallback
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(CONTACT_EMAIL).catch(() => {});
+  }
+  // Attempt to open mail client
+  window.location.href = `mailto:${CONTACT_EMAIL}`;
+  // Show a toast with the email so users without a mail client still get it
+  setTimeout(() => {
+    toast("Email copied — write to us", {
+      description: CONTACT_EMAIL,
+      duration: 6000,
+    });
+  }, 300);
+}
 
 export const Route = createFileRoute("/")({
   component: Index,
