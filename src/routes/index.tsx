@@ -83,7 +83,7 @@ function Index() {
             real confidence.
           </h1>
           <p className="mb-12 font-serif text-[20px] italic text-ink-40">Let's start here.</p>
-          <a href="#contact" className="btn">
+          <a href="mailto:thefrenchs.contact@gmail.com" className="btn">
             Get in touch
           </a>
         </div>
