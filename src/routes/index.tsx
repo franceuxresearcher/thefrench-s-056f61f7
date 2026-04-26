@@ -75,7 +75,8 @@ function Index() {
             Offers
           </a>
           <a
-            href="#contact"
+            href={`mailto:${CONTACT_EMAIL}`}
+            onClick={handleContactClick}
             className="text-[11px] uppercase tracking-[0.14em] text-ink-40 transition-colors hover:text-ink"
           >
             Contact
