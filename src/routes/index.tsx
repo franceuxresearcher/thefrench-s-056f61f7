@@ -280,7 +280,7 @@ function Index() {
                 <img
                   src={l.src}
                   alt={l.label}
-                  className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-[1.03]"
+                  className="h-full w-full object-cover object-[70%_center] transition-transform duration-500 hover:scale-[1.03]"
                   loading="lazy"
                 />
               ) : (
