@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
+import heroSacreCoeur from "@/assets/hero-sacre-coeur.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -85,7 +86,12 @@ function Index() {
           </a>
         </div>
         <div className="relative min-h-[60vw] overflow-hidden bg-[rgba(26,26,26,0.07)] md:min-h-0">
-          <Placeholder label="Your photo" sub="Sacré-Cœur, Paris" />
+          <img
+            src={heroSacreCoeur}
+            alt="Parisian street style — denim shirt and black trousers on cobblestones"
+            className="h-full w-full object-cover object-center"
+            loading="eager"
+          />
         </div>
       </header>
 
