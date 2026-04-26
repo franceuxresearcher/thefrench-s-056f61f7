@@ -17,7 +17,7 @@ function handleContactClick(e: React.MouseEvent<HTMLAnchorElement>) {
   window.location.href = `mailto:${CONTACT_EMAIL}`;
   // Show a toast with the email so users without a mail client still get it
   setTimeout(() => {
-    toast("Email copied — write to us", {
+    toast("Email copied - write to us", {
       description: CONTACT_EMAIL,
       duration: 6000,
     });
@@ -111,7 +111,7 @@ function Index() {
         <div className="relative min-h-[60vw] overflow-hidden bg-[rgba(26,26,26,0.07)] md:min-h-0">
           <img
             src={heroSacreCoeur}
-            alt="Parisian street style — denim shirt and black trousers on cobblestones"
+            alt="Parisian street style - denim shirt and black trousers on cobblestones"
             className="h-full w-full object-cover object-center"
             loading="eager"
           />
@@ -133,7 +133,7 @@ function Index() {
         <p className="mt-4 max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
           It's the art of looking effortless without being careless. Choosing fewer things, but
           better ones. Knowing your colours, understanding your proportions, and not trying too
-          hard — because trying too hard is, in France, the one thing you never want to do.
+          hard - because trying too hard is, in France, the one thing you never want to do.
         </p>
         <p className="mt-4 max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
           At its core, French style is a form of self-respect. A quiet way of saying: I know who I
@@ -165,7 +165,7 @@ function Index() {
             </p>
             <p className="mt-4 text-[15px] leading-[1.9] text-ink-60">
               Word spread, and what started as a personal gesture grew into something I'm truly
-              proud of — accompanying men through the moments that matter.
+              proud of - accompanying men through the moments that matter.
             </p>
           </div>
           <div className="aspect-[3/4] overflow-hidden bg-[rgba(26,26,26,0.06)]">
@@ -188,18 +188,18 @@ function Index() {
           The moments that matter
         </h2>
         <p className="max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
-          There are times in life when you want to show up differently — after a breakup, stepping
+          There are times in life when you want to show up differently - after a breakup, stepping
           back into the dating scene, starting a new job, preparing for a wedding, or simply
           deciding that now is a good time to invest in yourself.
         </p>
         <p className="mt-4 max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
           For example, dating is one of those moments where first impressions really do matter. The
-          way you dress sends a signal before you've said a word — confidence, taste, attention to
+          way you dress sends a signal before you've said a word - confidence, taste, attention to
           detail. I help you make that signal work in your favour.
         </p>
         <p className="mt-4 max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
           I'm here to help you move through those moments with more ease, find genuine pleasure in
-          getting dressed, and build a wardrobe that feels like you — maybe a slightly better, more
+          getting dressed, and build a wardrobe that feels like you - maybe a slightly better, more
           confident version of you.
         </p>
 
@@ -223,7 +223,7 @@ function Index() {
             {
               n: "04",
               t: "Keep your own identity.",
-              b: "I'm not here to turn you into someone else — just to help you look like the best version of yourself.",
+              b: "I'm not here to turn you into someone else - just to help you look like the best version of yourself.",
             },
           ].map((p) => (
             <div
@@ -249,16 +249,16 @@ function Index() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {[
             {
-              q: "I came to France after a rough breakup. She didn't just help me dress better — she helped me feel like myself again. Worth every cent.",
-              a: "— James, New York",
+              q: "I came to France after a rough breakup. She didn't just help me dress better - she helped me feel like myself again. Worth every cent.",
+              a: "- James, New York",
             },
             {
               q: "I was starting a new job in Paris and had no idea where to begin. Two sessions later, I had a wardrobe I actually understood. Quiet, confident, me.",
-              a: "— Michael, Chicago",
+              a: "- Michael, Chicago",
             },
             {
               q: "The lookbook alone changed how I shop. I stop buying things that don't work. Simple as that.",
-              a: "— Thomas, San Francisco",
+              a: "- Thomas, San Francisco",
             },
           ].map((t, i) => (
             <div
@@ -284,7 +284,7 @@ function Index() {
           A few examples
         </h2>
         <p className="max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
-          Real clients, real results. Each look is built around the person — their life, their
+          Real clients, real results. Each look is built around the person - their life, their
           body, their personality.
         </p>
         <div className="mt-12 grid grid-cols-3 gap-2 md:gap-4">
@@ -324,14 +324,14 @@ function Index() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
           <div className="flex flex-col gap-5 border-[0.5px] border-ink-20 bg-white-60 p-8 md:p-10">
             <p className="text-[10px] uppercase tracking-[0.2em] text-ink-40">
-              01 — Remote · Worldwide
+              01 - Remote · Worldwide
             </p>
             <h3 className="font-serif text-[22px] font-normal leading-[1.3] text-ink-soft">
               The Personalised Lookbook
             </h3>
             <p className="flex-1 text-[14px] leading-[1.85] text-ink-60">
               Your pocket guide to shopping smarter. Based on your profile, lifestyle and goals, I
-              put together a personalised lookbook — direction and inspiration you can actually
+              put together a personalised lookbook - direction and inspiration you can actually
               use, wherever you are in the world.
             </p>
             <div className="flex flex-col gap-1 border-t-[0.5px] border-ink-10 pt-5">
@@ -340,7 +340,7 @@ function Index() {
             </div>
           </div>
           <div className="flex flex-col gap-5 border-[0.5px] border-ink-20 bg-white-60 p-8 md:p-10">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-ink-40">02 — In Paris</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-ink-40">02 - In Paris</p>
             <h3 className="font-serif text-[22px] font-normal leading-[1.3] text-ink-soft">
               Shop with Me in Paris
             </h3>
@@ -375,7 +375,7 @@ function Index() {
             },
             {
               t: "100% tailored",
-              b: "Every session starts with a call. No templates, no shortcuts — everything is built around you specifically.",
+              b: "Every session starts with a call. No templates, no shortcuts - everything is built around you specifically.",
             },
             {
               t: "Clear process",
