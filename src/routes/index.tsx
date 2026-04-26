@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import heroSacreCoeur from "@/assets/hero-sacre-coeur.jpg";
 import portraitFrance from "@/assets/portrait-france.jpg";
+import look01 from "@/assets/look-01.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -266,12 +267,25 @@ function Index() {
           body, their personality.
         </p>
         <div className="mt-12 grid grid-cols-3 gap-2 md:gap-4">
-          {["Look 01", "Look 02", "Look 03"].map((l) => (
+          {[
+            { label: "Look 01", src: look01 },
+            { label: "Look 02", src: null },
+            { label: "Look 03", src: null },
+          ].map((l) => (
             <div
-              key={l}
+              key={l.label}
               className="aspect-[2/3] overflow-hidden bg-[rgba(26,26,26,0.07)]"
             >
-              <Placeholder label={l} />
+              {l.src ? (
+                <img
+                  src={l.src}
+                  alt={l.label}
+                  className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-[1.03]"
+                  loading="lazy"
+                />
+              ) : (
+                <Placeholder label={l.label} />
+              )}
             </div>
           ))}
         </div>
