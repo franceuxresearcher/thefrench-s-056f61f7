@@ -4,6 +4,8 @@ import { toast } from "sonner";
 import heroSacreCoeur from "@/assets/hero-sacre-coeur.jpg";
 import portraitFrance from "@/assets/portrait-france.jpg";
 import look01 from "@/assets/look-01.jpg";
+import look02 from "@/assets/look-02.jpg";
+import look03 from "@/assets/look-03.jpg";
 
 const CONTACT_EMAIL = "thefrenchs.contact@gmail.com";
 
@@ -290,8 +292,8 @@ function Index() {
         <div className="mt-12 grid grid-cols-3 gap-2 md:gap-4">
           {[
             { label: "Look 01", src: look01 },
-            { label: "Look 02", src: null },
-            { label: "Look 03", src: null },
+            { label: "Look 02", src: look02 },
+            { label: "Look 03", src: look03 },
           ].map((l) => (
             <div
               key={l.label}
