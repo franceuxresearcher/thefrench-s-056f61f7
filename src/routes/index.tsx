@@ -85,7 +85,7 @@ function Index() {
             Contact
           </a>
           <a
-            href="https://instagram.com/thefrenchs_paris"
+            href="https://www.instagram.com/thefrenchs_paris/"
             target="_blank"
             rel="noreferrer"
             className="border-b-[0.5px] border-ink-20 pb-px text-[10px] md:text-[11px] uppercase tracking-[0.14em] text-ink-40 transition-colors hover:text-ink whitespace-nowrap"
@@ -455,7 +455,7 @@ function Index() {
         <span className="font-serif text-[16px] text-ink-40">The French S</span>
         <div className="flex items-center gap-8">
           <a
-            href="https://instagram.com/thefrenchs_paris"
+            href="https://www.instagram.com/thefrenchs_paris/"
             target="_blank"
             rel="noreferrer"
             className="text-[11px] tracking-[0.1em] text-ink-40 transition-colors hover:text-ink"
