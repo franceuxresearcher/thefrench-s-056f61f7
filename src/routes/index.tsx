@@ -60,11 +60,11 @@ function Index() {
   return (
     <div className="bg-cream text-ink">
       {/* NAV */}
-      <nav className="sticky top-0 z-[100] flex items-center justify-between gap-3 border-b-[0.5px] border-ink-20 bg-cream px-4 py-4 md:px-16 md:py-6">
-        <a href="#top" className="font-serif text-[16px] tracking-[0.06em] text-ink-soft md:text-[20px] whitespace-nowrap">
+      <nav className="sticky top-0 z-[100] flex items-baseline justify-between gap-3 border-b-[0.5px] border-ink-20 bg-cream px-4 py-4 md:px-16 md:py-6">
+        <a href="#top" className="font-serif text-[15px] leading-none tracking-[0.06em] text-ink-soft md:text-[20px] whitespace-nowrap">
           The French S
         </a>
-        <div className="flex items-center gap-3 sm:gap-5 md:gap-10">
+        <div className="flex items-baseline gap-3 sm:gap-6 md:gap-10">
           <a
             href="#about"
             className="hidden sm:inline text-[10px] md:text-[11px] uppercase tracking-[0.14em] text-ink-40 transition-colors hover:text-ink"
