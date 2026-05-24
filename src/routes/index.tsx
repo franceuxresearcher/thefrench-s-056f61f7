@@ -6,6 +6,7 @@ import portraitFrance from "@/assets/portrait-france.jpg";
 import look01 from "@/assets/look-01.jpg";
 import look02 from "@/assets/look-02.jpg";
 import look03 from "@/assets/look-03.jpg";
+import parisianVitrines from "@/assets/parisian-vitrines.jpg";
 
 const CONTACT_EMAIL = "thefrenchs.contact@gmail.com";
 
@@ -237,6 +238,34 @@ function Index() {
               <p className="text-[13px] leading-[1.8] text-ink-60">{p.b}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* FILIGRANE BAND */}
+      <section
+        aria-label="Quote"
+        className="relative isolate overflow-hidden border-t-[0.5px] border-ink-10"
+      >
+        <img
+          src={parisianVitrines}
+          alt=""
+          aria-hidden="true"
+          width={1920}
+          height={832}
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-cream/70" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-b from-cream/40 via-transparent to-cream/40" aria-hidden="true" />
+        <div className="relative flex min-h-[42vh] items-center justify-center px-6 py-24 md:min-h-[50vh] md:px-16 md:py-32">
+          <figure className="max-w-[820px] text-center">
+            <p className="mb-5 text-[10px] uppercase tracking-[0.24em] text-ink-40">
+              — In a few words —
+            </p>
+            <blockquote className="font-serif text-[clamp(26px,3.4vw,44px)] italic leading-[1.25] text-ink-soft">
+              "To dress well is a quiet form of self-respect."
+            </blockquote>
+          </figure>
         </div>
       </section>
 
