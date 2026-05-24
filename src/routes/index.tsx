@@ -6,6 +6,7 @@ import portraitFrance from "@/assets/portrait-france.jpg";
 import look01 from "@/assets/look-01.jpg";
 import look02 from "@/assets/look-02.jpg";
 import look03 from "@/assets/look-03.jpg";
+import parisianVitrines from "@/assets/parisian-vitrines.jpg";
 
 const CONTACT_EMAIL = "thefrenchs.contact@gmail.com";
 
