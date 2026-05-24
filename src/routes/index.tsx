@@ -263,7 +263,7 @@ function Index() {
               — In a few words —
             </p>
             <blockquote className="font-serif text-[clamp(26px,3.4vw,44px)] italic leading-[1.25] text-ink-soft">
-              "To dress well is a quiet form of self-respect."
+              "Confidence is the only thing that never goes out of fashion."
             </blockquote>
           </figure>
         </div>
