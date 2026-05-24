@@ -315,8 +315,8 @@ function Index() {
           A few examples
         </h2>
         <p className="max-w-[580px] text-[15px] leading-[1.9] text-ink-60">
-          Real clients, real results. Each look is built around the person - their life, their
-          body, their personality.
+          Every look is built around your needs and the occasion — always with that effortless
+          French touch.
         </p>
         <div className="mt-12 grid grid-cols-3 gap-2 md:gap-4">
           {[
