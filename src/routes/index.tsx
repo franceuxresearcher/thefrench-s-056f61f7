@@ -280,8 +280,8 @@ function Index() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {[
             {
-              q: "I came to France after a rough breakup. She didn't just help me dress better - she helped me feel like myself again. Worth every cent.",
-              a: "- James, New York",
+              q: "I came to France after a rough breakup. She didn't just help me dress better - she helped me feel like myself again. It really helped me gain confidence in dating and stand out on the apps. Worth every cent.",
+              a: "- Yoann, San Francisco",
             },
             {
               q: "I was starting a new job in Paris and had no idea where to begin. Two sessions later, I had a wardrobe I actually understood. Quiet, confident, me.",
