@@ -403,7 +403,7 @@ function Index() {
           {[
             {
               t: "Registered business",
-              b: "The French S is a registered French business. Operating since 2022.",
+              b: "The French S is a registered French business. Operating since 2023.",
             },
             {
               t: "100% tailored",
@@ -470,7 +470,7 @@ function Index() {
           </a>
         </div>
         <span className="text-[10px] tracking-[0.04em] text-ink-20">
-          © 2025 · Auto-entrepreneur · Paris, France
+          © 2025 · Paris, France
         </span>
       </footer>
     </div>
