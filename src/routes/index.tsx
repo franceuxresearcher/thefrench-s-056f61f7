@@ -8,7 +8,7 @@ import look02 from "@/assets/look-02.jpg";
 import look03 from "@/assets/look-03.jpg";
 import parisianVitrines from "@/assets/parisian-vitrines.jpg";
 
-const CONTACT_EMAIL = "thefrenchs.contact@gmail.com";
+const CONTACT_EMAIL = "france@thefrench-s.com";
 
 function handleContactClick(e: React.MouseEvent<HTMLAnchorElement>) {
   e.preventDefault();
@@ -437,14 +437,14 @@ function Index() {
         <p className="mb-2 text-[15px] text-ink-60">
           Let's talk about where you are and where you want to go.
         </p>
-        <span className="mb-10 block text-[14px] italic text-ink-40">
-          <a
-            href="mailto:thefrenchs.contact@gmail.com"
-            className="border-b-[0.5px] border-ink-20 pb-px text-ink-60 transition-colors hover:text-ink"
-          >
-            thefrenchs.contact@gmail.com
-          </a>
-        </span>
+          <span className="mb-10 block text-[14px] italic text-ink-40">
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="border-b-[0.5px] border-ink-20 pb-px text-ink-60 transition-colors hover:text-ink"
+            >
+              {CONTACT_EMAIL}
+            </a>
+          </span>
         <a href={`mailto:${CONTACT_EMAIL}`} onClick={handleContactClick} className="btn">
           Get in touch
         </a>
@@ -463,10 +463,10 @@ function Index() {
             Instagram ↗
           </a>
           <a
-            href="mailto:thefrenchs.contact@gmail.com"
+            href={`mailto:${CONTACT_EMAIL}`}
             className="text-[11px] tracking-[0.1em] text-ink-40 transition-colors hover:text-ink"
           >
-            thefrenchs.contact@gmail.com
+            {CONTACT_EMAIL}
           </a>
         </div>
         <span className="text-[10px] tracking-[0.04em] text-ink-20">
